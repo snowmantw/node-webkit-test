@@ -1,0 +1,16 @@
+{
+  "name": "window-things",
+  "description": "Chrome platform app.",
+  "version": "0.1",
+  "main": "index.html",
+  "window": {
+    "show": true,
+    "toolbar": true,
+    "frame": true,
+    "position": "center",
+    "width": 360,
+    "height": 300,
+    "min_width": 220,
+    "min_height": 220
+  }
+}
