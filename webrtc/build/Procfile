@@ -1,0 +1,2 @@
+#web: bash -c "cd ./webrtc/build && python -m SimpleHTTPServer 8090"
+nw: nw ./

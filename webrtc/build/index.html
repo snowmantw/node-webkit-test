@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="library/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="library/underscore/underscore-min.js" type="text/javascript"></script>
+    <script src="library/Fluorine/build/fluorine/fluorine.js" type="text/javascript"></script>
+    <script src="main/main.js" type="text/javascript"></script>
+    <!-- Load the polyfill to switch-hit between Chrome and Firefox -->
+    <script src="library/webrtc/adapter.js"></script>
+    <style>
+    video {
+      border:5px solid black;
+      width:480px;
+      height:360px;
+    }
+    button {
+      font: 18px sans-serif;
+      padding: 8px;
+    }
+    textarea {
+      font-family: monospace;
+      margin: 2px;
+      width:480px;
+      height:640px;
+    }
+    </style>
+    </head>
+    <body>
+        <video id="vid1" autoplay="true" muted="true"></video>
+        <video id="vid2" autoplay></video>
+        <br>
+        <button id="btn1" onclick="Main.start()">Start</button>
+        <button id="btn2" onclick="Main.call()">Call</button>
+        <button id="btn3" onclick="Main.hangup()">Hang Up</button>
+        <br>
+        <textarea id="ta1"></textarea>
+        <textarea id="ta2"></textarea>
+        <script>
+            Main.main()
+        </script>
+    </body>
+</html>
+    
