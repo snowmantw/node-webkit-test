@@ -28,15 +28,18 @@
     </style>
     </head>
     <body>
+        <h1>Your Id:<span id=pc1id></span></h1>
+
+
         <video id="vid1" autoplay="true" muted="true"></video>
         <video id="vid2" autoplay></video>
+        <br>
+        <input id="to" type="text" placeholder="To <guestid>..."/>
         <br>
         <button id="btn1" onclick="Main.start()">Start</button>
         <button id="btn2" onclick="Main.call()">Call</button>
         <button id="btn3" onclick="Main.hangup()">Hang Up</button>
         <br>
-        <textarea id="ta1"></textarea>
-        <textarea id="ta2"></textarea>
         <script>
             Main.main()
         </script>

@@ -5,7 +5,7 @@
   "main": "index.html",
   "dependencies":
     {
-        "growl": ""
+        "ws": ""
     },
   "window": {
     "show": true,
