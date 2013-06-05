@@ -3,6 +3,8 @@
 window.onload = function()
 {
 
+window.open("http://www.google.com",'_blank', 'screenX=0,screenY=0,width=100,height=100');
+
 var growl = require('growl')
 
 // Load native UI library
