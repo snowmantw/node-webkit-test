@@ -18,3 +18,7 @@
 2. Press the "Start" button to register on the signal server
 3. After your target also get started, press the "Call" button
 4. In theory it's bidirection. One can call others can also be called.
+
+## Reference
+
+* http://www.html5rocks.com/en/tutorials/webrtc/basics/
