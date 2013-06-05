@@ -29,17 +29,24 @@
     </head>
     <body>
         <h1>Your Id:<span id=pc1id></span></h1>
-
+        <h2>Your local signal server: <span id=lsigsrv></span></h2>
 
         <video id="vid1" autoplay="true" muted="true"></video>
         <video id="vid2" autoplay></video>
         <br>
         <input id="to" type="text" placeholder="To <guestid>..."/>
+        <input id="tosrv" type="text" placeholder="Signal Server <server URL>..." value="ws://192.168.1.198:8099"/>
         <br>
         <button id="btn1" onclick="Main.start()">Start</button>
         <button id="btn2" onclick="Main.call()">Call</button>
         <button id="btn3" onclick="Main.hangup()">Hang Up</button>
+        <button id="btn4" onclick="Main.data()">Send Text</button>
         <br>
+        <h3>Received: </h3>
+        <div id="dcarea"></div>
+        <br>
+        <h3>Send: <h3>
+        <input type="text" id="dcinput"/>
         <script>
             Main.main()
         </script>

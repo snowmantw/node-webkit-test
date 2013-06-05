@@ -4,8 +4,7 @@ PPATH=`cwd`
 all: build deps run
 
 deps:
-	@cd build && npm install
-	@cd build && npm install && cd node_modules/ws && rm -rf ./build/Release && nw-gyp configure --target=0.5.1 && nw-gyp build
+	@cd build && npm install && cd ../tool && npm install
 
 config:
 	@cp config/package.json ./build/

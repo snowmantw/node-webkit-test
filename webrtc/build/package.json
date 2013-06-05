@@ -3,9 +3,9 @@
   "description": "Chrome platform app.",
   "version": "0.0.1",
   "main": "index.html",
+  "single-instance": false,
   "dependencies":
     {
-        "ws": ""
     },
   "window": {
     "show": true,
